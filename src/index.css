@@ -1,0 +1,87 @@
+/* index.css */
+
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #4a4a4a;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 300px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  max-width: 400px;
+  border-collapse: collapse; /* Ensures borders are collapsed */
+  margin-top: 20px; /* Same margin as the list */
+}
+
+th, td {
+  padding: 10px; /* Rounded corners */
+  text-align: center; /* Align text to the left */
+}
+
+tr {
+  background-color: white; /* Same background color as list items */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+tr:hover {
+  background-color: #9faab0; /* Same hover effect as list items */
+}
+
+th {
+  background-color: #f9f9f9; /* Light background for header */
+  font-weight: bold; /* Bold text for header */
+}
+
+span {
+  cursor: pointer;
+}
+
+span.completed {
+  text-decoration: line-through;
+  color: #aaa;
+}
+
+button.delete {
+  background-color: #dc3545;
+}
+
+button.delete:hover {
+  background-color: #c82333;
+}
